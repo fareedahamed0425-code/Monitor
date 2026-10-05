@@ -1,0 +1,59 @@
+# ==========================================
+# .gitignore - College PC Security & Monitoring
+# ==========================================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.directory
+*.local
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Logs & Databases
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js / Server & Dashboard
+node_modules/
+dist/
+build/
+out/
+.npm/
+.cache/
+.vite/
+
+# .NET / C# Client & Shared
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+.idea/
+*.rsuser
+
+# Screenshots / Evidence Temp Caches
+screenshots/
+temp/
+cache/
+artifacts/
